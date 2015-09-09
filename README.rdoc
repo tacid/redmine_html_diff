@@ -8,4 +8,6 @@ This plugin changes the default behaviour of redmine diff to htmldiff by https:/
 Change to redmine plugins directory and make:
     git clone https://github.com/tacid/redmine_print_issue
 
-After this you should run ````bundle install```` and restart your redmine.
+After this you should run:
+    bundle install
+and restart your redmine.
