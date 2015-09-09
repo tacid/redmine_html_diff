@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  setting_htmldiff_style: Style for HTMLDiff
+  setting_htmldiff_style_description: (all changes will be wrapped in tags <ins/> and <del/>, on modifications class 'diffmod' added to tags. You can colorify them)

@@ -1,0 +1,11 @@
+= Plugin to show issue changes diff using HTML diff
+=== About
+
+This plugin changes the default behaviour of redmine diff to htmldiff by https://github.com/mattgibson/htmldiff
+
+=== Installation instructions
+
+Change to redmine plugins directory and make:
+    git clone https://github.com/tacid/redmine_print_issue
+
+After this you should run ````bundle install```` and restart your redmine.

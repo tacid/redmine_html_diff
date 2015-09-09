@@ -1,0 +1,12 @@
+<p>
+<label for="settings_htmldiff_style">
+  <%= l(:setting_htmldiff_style) %> <br/>
+  <small><%= l(:setting_htmldiff_style_description) %></small>
+</label>
+<%= text_area_tag("settings[htmldiff_style]",
+                   ( settings[:htmldiff_style].blank? ?
+                      "ins {\n  background-color: #cfc;\n  text-decoration: none;\n}\n\ndel {\n  color: #999;\n  background-color:#FEC8C8;\n}" :
+                      settings[:htmldiff_style]
+                   ),
+                  { rows: 10} ) %>
+</p>

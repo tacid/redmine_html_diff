@@ -1,0 +1,5 @@
+# Russian strings go here for Rails i18n
+ru:
+  setting_htmldiff_style: Стили для отображения разницы
+  setting_htmldiff_style_description: (все изменения помещаются в тэги <ins/> и <del/>. Если тэгами помечается модификация к тэгам добавляется класс 'diffmod')
+
