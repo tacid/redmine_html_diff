@@ -7,9 +7,10 @@ module Redmine
       end
 
       def to_html
+        puts diff
         ('<style>' +
          Setting.plugin_redmine_html_diff[:htmldiff_style].squish +
-         '</style>' + diff).html_safe
+         '</style>' + diff).squish.html_safe
       end
     end
   end
